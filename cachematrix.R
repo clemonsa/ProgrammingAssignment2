@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	setinverse <- function(inverse) i <<- inverse
 	getinverse <- function()i
 	list(setmatrix = setmatrix, getmatrix = getmatrix, setinverse = setinverse, getinverse = getinverse)
-
+}
 ## Solves the matrix input and returns its inverse, will return the cached
 ## solution if any has been stored by makeCacheMatrix and matrix is unchanged
 
